@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="style/style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/21dd2101a8.js" crossorigin="anonymous"></script>
+
     <title>Nataly Zaytseva</title>
 </head>
 
 <body>
     <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg">
+        <!-- <nav class="navbar navbar-expand-lg">
             <img class="navbar-brand" src="image/logo.png" alt="">
             <div class="collapse navbar-collapse d-flex justify-content-end">
                 <ul class="navbar-nav">
@@ -29,8 +32,33 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-        <img class="image-fluid col-lg-12 col-md-12 col-sm-12" src="image/main.jpg" alt="" id="main-image">
+        </nav> -->
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <img class="navbar-brand" src="image/logo.png" alt="">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse right" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link  text-white" href="#middle-text">Обо мне</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#album">Мои работы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#tutorial">Обучение</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <img class="image-fluid col-xs-12 col-lg-12 col-md-12 col-sm-12" src="image/main.jpg" alt="" id="main-image">
+        </div>
         <div class="middle-text text-center d-flex justify-content-center container padding-top">
             <a name="middle-text"></a>
             <div class="col-lg-8">
@@ -47,17 +75,20 @@
                 </p>
             </div>
         </div>
-        <div class="album d-flex flex-wrap justify-content-between aling-items-center">
-            <a name="album"></a>
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/1.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/2.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/3.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/4.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/5.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/6.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/7.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/8.jpg" alt="">
-            <img class="col-lg-4 p-3 col-md-6 col-sm-12" src="image/9.jpg" alt="">
+
+        <div class="album  col-xs-12 d-flex flex-wrap justify-content-between aling-items-center">
+            <div class="row">
+                <a name="album"></a>
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/1.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/2.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/3.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/4.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/5.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/6.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/7.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/8.jpg" alt="">
+                <img class="col-lg-4 col-xs-12 p-3 col-md-6 col-sm-12" src="image/9.jpg" alt="">
+            </div>
         </div>
         <div class="tutorial container-fluid p-5">
             <a name="tutorial"></a>
